@@ -4,6 +4,16 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackageId>dotnet-dynamic-filter-expression</PackageId>
+        <Authors>Phuc Nguyen</Authors>
+        <Description>This libary will help translate string into a C# Expression Tree</Description>
+        <RepositoryUrl>https://github.com/phucthanh6554/dotnet-dynamic-filter-expression</RepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Update="README.md" Pack="true" PackagePath="\">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
 </Project>
